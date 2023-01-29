@@ -10,6 +10,6 @@ namespace WebApplication1.Models
         }
 
         public DbSet<TodoItem> TodoItems { get; set; } = null!;
-        public DbSet<FocusTask> FocusTask { get; set; } = null!;
+        public DbSet<FocusTask> FocusTasks { get; set; } = null!;
     }
 }
