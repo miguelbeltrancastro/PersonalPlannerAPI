@@ -13,9 +13,9 @@ namespace WebApplication1.Controllers
     [ApiController]
     public class TodoItemsController : ControllerBase
     {
-        private readonly TodoContext _context;
+        private readonly PersonalPlannerContext _context;
 
-        public TodoItemsController(TodoContext context)
+        public TodoItemsController(PersonalPlannerContext context)
         {
             _context = context;
         }
